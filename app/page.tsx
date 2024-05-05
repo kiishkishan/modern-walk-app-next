@@ -15,7 +15,7 @@ const HomePageContent: React.FC = () => {
     // Simulating API call delay
     setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 1500)
   }, [])
 
   return (

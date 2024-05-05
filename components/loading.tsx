@@ -3,7 +3,7 @@ import React from 'react'
 
 const Loading: React.FC = () => {
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-200">
       <p className="text-lg font-semibold">Loading...</p>
     </div>
   )
